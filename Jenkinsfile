@@ -7,8 +7,10 @@ pipeline {
 
     stages {
         stage('Build') {
+            options {
+                timeout(time: 2, unit: 'MINUTES')
+            }
             steps {
-
                 sh 'mvn clean package'
             }
         }
