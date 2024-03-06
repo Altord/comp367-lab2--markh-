@@ -11,7 +11,7 @@ pipeline {
                 timeout(time: 2, unit: 'MINUTES')
             }
             steps {
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
     }
