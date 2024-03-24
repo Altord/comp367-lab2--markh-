@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        maven 'lab2'
+        maven 'lab3'
     }
 
     environment {
