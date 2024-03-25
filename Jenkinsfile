@@ -3,6 +3,7 @@ pipeline {
     
     tools {
         maven 'lab3'
+        jdk 'JDK11-Manual'
     }
 
     environment {
